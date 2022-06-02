@@ -3,6 +3,7 @@ int main()
 {
     double basic_salary,dearness_allowance, house_rent,gross_sallary;
 
+    printf("Please Input your basic sallary : ");
     scanf("%lf",&basic_salary);
 
     dearness_allowance = basic_salary* .4;
