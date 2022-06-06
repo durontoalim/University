@@ -26,12 +26,34 @@ int main()
         arr[i] = arr1[i];
     }
 
+    
+
     int t = 0;
     for(int i=len1; i< total_len ; i++){
         arr[i] = arr2[t++];
     }
 
+    // swap array accending order
+
     for(int i=0; i< total_len ; i++){
+        for(int j=i+1; j< total_len; j++){
+            if(arr[i] > arr[j]){
+                temp = arr[i];
+                arr[i] = arr[j];
+                arr[j] = temp;
+            }
+        }
+        
+    }
+    	// merge array
+
+    for(int i=0; i< total_len ; i++){
+
+        for(int j=1; j< total_len; j++){
+            if(arr[i] == arr[j]){
+                arr[i] = 
+            }
+        }
         printf("%d ",arr[i]);
     }
 
