@@ -32,7 +32,7 @@ int main()
 
     percentage = (sum*100.00) / 500.00;
 
-    printf("percentage marks : %f%c\n",percentage,ch);
+    printf("percentage marks : %.2f%c\n",percentage,ch);
 
     //maximum num
 

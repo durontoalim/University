@@ -9,8 +9,6 @@ int main()
         printf("Please full Hour work : ");
         scanf("%lf",&total_hour);
 
-        
-
         if(total_hour > office_hour ){
             overtime = total_hour - office_hour;
             printf("Your overtime sallary %.2lf Taka\n",overtime*12.00);
