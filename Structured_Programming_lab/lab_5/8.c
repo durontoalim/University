@@ -8,7 +8,7 @@ int main()
 
     int len = 4;
 
-    // insert position
+    // insert possition
     int insert_posi = 4;
 
     for(int i=len-1 ; i>= insert_posi-1; i--){
