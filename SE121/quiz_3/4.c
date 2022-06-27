@@ -1,6 +1,7 @@
+// Name: Md. Abdul Alim
+// ID : 221-35-1043
+// Section - E
 #include <stdio.h>
-
-
 void factorial(int n){
 
     int fact = 1;

@@ -1,3 +1,6 @@
+// Name: Md. Abdul Alim
+// ID : 221-35-1043
+// Section - E
 #include <stdio.h>
 
 int main()
@@ -16,7 +19,6 @@ int main()
             printf(" %d",i);
         }
     }
-
     printf("\nOdd natural number sum : %d\n",sum);
 
 

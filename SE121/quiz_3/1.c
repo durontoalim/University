@@ -1,5 +1,7 @@
+// Name: Md. Abdul Alim
+// ID : 221-35-1043
+// Section - E
 #include <stdio.h>
-
 int main()
 {
     int num[10],sum = 0;
@@ -12,11 +14,8 @@ int main()
     }
 
     printf("Sum : %d\n",sum);
-
     average = sum/10.0;
-
     printf("\n Ten digit total number average: %.2lf",average);
-
 
     return 0;
 }
