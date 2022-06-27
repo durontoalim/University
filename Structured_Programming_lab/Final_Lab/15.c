@@ -2,7 +2,17 @@
 
 int main()
 {
-    int arr[] = {32,23,111,44,55};
+    int N;
+    printf("Please input N number: \n");
+    scanf("%d",&N);
+    int arr[N];
+    
+    printf("Please input element : \n");
+
+    for (int i = 0; i < N; i++)
+    {
+        scanf("%d",&arr[i]);
+    }
 
     int len = sizeof(arr)/sizeof(arr[0]);
 
@@ -11,7 +21,7 @@ int main()
 
     for (int i = 0; i < len ; i++)
     {
-        for (int j = i+1; j < 5; j++)
+        for (int j = i+1; j < len; j++)
         {
            if(arr[i] > arr[j]){
                 temp = arr[i];

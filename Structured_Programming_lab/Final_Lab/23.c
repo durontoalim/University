@@ -4,6 +4,7 @@ int main()
 {
     int N,fact=1;
 
+    printf("Input N number : \n");
     scanf("%d",&N);
 
     // accending order

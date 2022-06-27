@@ -14,7 +14,6 @@ void main()
     printf("Input %d elements in the array :\n",n);
     for(i=0;i<n;i++)
     {
-	    printf("element - %d : ",i);
 	    scanf("%d",&arr1[i]);
 	}
 
@@ -42,6 +41,6 @@ void main()
     }
       printf("The total number of duplicate elements found in the array is: %d \n", ctr);
     
-	  printf("\n\n");
+	  printf("\n");
 
 }

@@ -5,6 +5,7 @@ int main()
     int N;
     double sum = 0.0 , i;
 
+    printf("Input N number : \n");
     scanf("%d",&N);
 
     for ( i = 1; i <= N; i++)

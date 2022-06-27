@@ -2,14 +2,24 @@
 
 int main()
 {
-    int arr[5] = {32,23,111,44,55};
+    int N;
+    printf("Please input N number: \n");
+    scanf("%d",&N);
+    int arr[N];
+    
+    printf("Please input element : \n");
+
+    for (int i = 0; i < N; i++)
+    {
+        scanf("%d",&arr[i]);
+    }
 
     // deccending order
     int temp ;
 
-    for (int i = 0; i < 5 ; i++)
+    for (int i = 0; i < N ; i++)
     {
-        for (int j = i+1; j < 5; j++)
+        for (int j = i+1; j < N; j++)
         {
            if(arr[i] < arr[j]){
                 temp = arr[i];
@@ -23,7 +33,7 @@ int main()
 
     printf("Deccending order : ");
 
-    for (int i = 0; i < 5; i++)
+    for (int i = 0; i < N; i++)
     {
         printf(" %d",arr[i]);
     }

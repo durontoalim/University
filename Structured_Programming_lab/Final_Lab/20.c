@@ -4,7 +4,7 @@
 int main()
 {
     int N,count = 0;
-
+    printf("Input N number : \n");
     scanf("%d",&N);
 
     if(N == 1 || N == 0){

@@ -3,7 +3,7 @@
 int main()
 {
     int N,sum = 0;
-
+    printf("Input N number : \n");
     scanf("%d",&N);
 
     for (int i = 1; i <= N; i++)

@@ -2,7 +2,18 @@
 
 int main()
 {
-    int arr[5] = {32,23,111,44,55};
+    int N;
+
+    printf("Please input N number: \n");
+    scanf("%d",&N);
+    int arr[N];
+    
+    printf("Please input element : \n");
+
+    for (int i = 0; i < N; i++)
+    {
+        scanf("%d",&arr[i]);
+    }
 
     // accending order
     int temp ;
