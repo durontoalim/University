@@ -2,11 +2,19 @@
 
 int main()
 {
-    int arr[5] = {1,2,3,4,5};
+    int N;
+    // length
+    printf("Please input array size : \n");
+    scanf("%d",&N);
+    int arr[N];
+    
+    // input array element
+    for (int i = 0; i < N; i++)
+    {
+        scanf("%d",&arr[i]);
+    }
 
-    int count = 5;
-
-    for (int i = 0; i < count; i++)
+    for (int i = 0; i < N; i++)
     {
         printf("%d\n",arr[i]);
     }

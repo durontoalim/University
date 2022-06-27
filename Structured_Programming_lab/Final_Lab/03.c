@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-
 void fun(int arr[],int count){
     int sum = 0;
     for(int i = 0; i < count ; i++)
@@ -11,7 +10,6 @@ void fun(int arr[],int count){
     printf("Elements Sum : %d",sum);
 
 }
-
 
 int main()
 {
